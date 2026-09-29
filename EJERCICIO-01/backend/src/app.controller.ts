@@ -5,6 +5,6 @@ import { AppService } from './app.service';
 export class HolaController {
   @Get()
   saludar() {
-    return { mensaje: '¡Hola desde DAM! 🚀' };
+    return { mensaje: '¡Hola desde NestJS! 🚀' };
   }
 }
